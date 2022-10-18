@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/pricing.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+		integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />>
+	<title>MyProduct</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class='header__container'>
+				<div class="header__body">
+					<div class="header__logo">
+						<img src="./img/header/logo.svg" alt="logo">
+						<span>Product</span>
+					</div>
+					<div class="header__burger">
+						<span>
+						</span>
+					</div>
+					<div class="header__items">
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li class="header__item">
+									<a href="index.html" class="header__link">Product</a>
+								</li>
+								<li class="header__item">
+									<a href="customers.html" class="header__link">Customers</a>
+								</li>
+								<li class="header__item">
+									<a href="pricing.html" class="header__link active-page">Pricing</a>
+								</li>
+								<li class="header__item">
+									<a href="#" class="header__link">Resources</a>
+								</li>
+
+							</ul>
+						</nav>
+						<div class="header__buttons">
+							<a href="#" class="header__button">Sign In</a>
+							<a href="#" class="header__button header__button--green">Sign Up</a>
+							<a href="#" class="header__switch">
+								<img src="./img/header/switch.svg" alt="switch">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="main__price price-block">
+				<div class='price-block__container'>
+					<div class="price-block__name">PRICING</div>
+					<div class="title price-block__title">
+						<h2 class="title__title ">Let’s get some real work done here.</h2>
+						<div class="title__subtitle">Prodict is your perfect solution for working. Get started now for free
+						</div>
+					</div>
+					<div class="price-block__body">
+						<div class="price-block__row">
+							<div class="price-block__column">
+								<div class="price-block__item item-price-block">
+									<div class="item-price-block__name">Free</div>
+									<div class="item-price-block__subtitle">Brief price description</div>
+									<div class="item-price-block__price">
+										0$<span>Per / month</span>
+									</div>
+									<ul class="item-price-block__info info-item-block">
+										<li class="info-item-block__item">Only 2 Operators</li>
+										<li class="info-item-block__item">Notifications</li>
+										<li class="info-item-block__item">Landing Pages</li>
+									</ul>
+									<a href="#" class="item-price-block__button">Order Now</a>
+								</div>
+							</div>
+							<div class="price-block__column">
+								<div class="price-block__item item-price-block item-price-block--green">
+									<div class="item-price-block__name">Standard</div>
+									<div class="item-price-block__subtitle">Brief price description</div>
+									<div class="item-price-block__price item-price-block__price--green">
+										5$<span>Per / month</span>
+									</div>
+									<ul class="item-price-block__info info-item-block">
+										<li class="info-item-block__item">5+ Operators</li>
+										<li class="info-item-block__item">Notifications</li>
+										<li class="info-item-block__item">Landing Pages</li>
+									</ul>
+									<a href="#" class="item-price-block__button item-price-block__button--green">Order Now</a>
+								</div>
+							</div>
+							<div class="price-block__column">
+								<div class="price-block__item item-price-block">
+									<div class="item-price-block__name">Premium</div>
+									<div class="item-price-block__subtitle">Brief price description</div>
+									<div class="item-price-block__price">
+										9$<span>Per / month</span>
+									</div>
+									<ul class="item-price-block__info info-item-block">
+										<li class="info-item-block__item">10+ Operators</li>
+										<li class="info-item-block__item">Notifications</li>
+										<li class="info-item-block__item">Landing Pages</li>
+									</ul>
+									<a href="#" class="item-price-block__button">Order Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__enterprise enterprise-block">
+				<div class='enterprise-block__container'>
+					<div class="price-block__name">ENTERPRISE</div>
+					<div class="title price-block__title">
+						<h2 class="title__title ">Are you interested in a custom-tailored plan?.</h2>
+						<div class="title__subtitle">Product is a set of advanced features for really large teams with
+							projects.
+						</div>
+					</div>
+					<div class="enterprise-block__btn">
+						<a href="#" class="enterprise-block__button">Get in touch with us</a>
+					</div>
+				</div>
+			</section>
+			<section class="main__effects effects-block">
+				<div class='effects-block__container'>
+					<div class="title effects-block__title">
+						<h2 class="title__title ">Product is being used with great effects alongside:</h2>
+						<div class="title__subtitle"></div>
+					</div>
+					<div class="effects-block__body">
+						<div class="effects-block__image">
+							<div class="effects-block__img">
+								<img src="./img/PRICING/effects/effects.png" alt="effects-block">
+							</div>
+						</div>
+						<div class="effects-block__content">
+							<div class="effects-block__rows">
+								<div class="effects-block__row">
+									<div class="effects-block__item item-effects-block">
+										<div class="item-effects-block__info">
+											<div class="item-effects-block__icon">
+												<img src="./img/PRICING/effects/icon-01.svg" alt="effects-block">
+											</div>
+											<div class="item-effects-block__name">Enterpreneur</div>
+										</div>
+										<div class="item-effects-block__text">Product is a great way to help medium and samall
+											enterprise owners achieve their goals</div>
+									</div>
+								</div>
+								<div class="effects-block__row">
+									<div class="effects-block__item item-effects-block">
+										<div class="item-effects-block__info">
+											<div class="item-effects-block__icon">
+												<img src="./img/PRICING/effects/icon-02.svg" alt="effects-block">
+											</div>
+											<div class="item-effects-block__name">Accountants</div>
+										</div>
+										<div class="item-effects-block__text">Whether you are working on contract with clients, or
+											on other key accounting documents, Product is for you</div>
+									</div>
+								</div>
+								<div class="effects-block__row">
+									<div class="effects-block__item item-effects-block">
+										<div class="item-effects-block__info">
+											<div class="item-effects-block__icon">
+												<img src="./img/PRICING/effects/icon-03.svg" alt="effects-block">
+											</div>
+											<div class="item-effects-block__name">Universities</div>
+										</div>
+										<div class="item-effects-block__text">Organize university projects and have documents
+											easily graded online with Product</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__questions questions-block">
+				<div class='questions-block__container'>
+					<div class="title questions-block__title">
+						<h2 class="title__title ">Frequently asked question</h2>
+						<div class="title__subtitle">Something is not clear? You need help? Check our FAQ section</div>
+					</div>
+					<div class="questions-block__body">
+						<div class="questions-block__dropdown">
+							<div class="questions-block__question">
+								<a href="#s" onclick="myFunction()" class="questions-block__dropbtn dropbtn">
+									<img src="./img/PRICING/effects/circle.svg" alt="dropbtn">
+								</a>
+								<div class="questions-block__ques">
+									What are my payment option?
+								</div>
+							</div>
+							<div id="myDropdown" class="questions-block__answer dropdown-content">
+								<a href="#">After creating your account you will have an oppurtunity to create your first
+									project that will be associated withthe collaborators e-mail. An invitation will be sent
+									automatically. Then, invited user will have to confirm his account by e-mail and finish userd
+									onboarding.</a>
+							</div>
+						</div>
+						<div class="questions-block__dropdown">
+							<div class="questions-block__question">
+								<a href="#s" onclick="myFunction()" class="questions-block__dropbtn dropbtn">
+									<img src="./img/PRICING/effects/circle.svg" alt="dropbtn">
+								</a>
+								<div class="questions-block__ques">
+									How can I invite collaborator to platform? </div>
+							</div>
+							<div id="myDropdown" class="questions-block__answer dropdown-content">
+								<a href="#"></a>
+							</div>
+						</div>
+						<div class="questions-block__dropdown">
+							<div class="questions-block__question">
+								<a href="#s" onclick="myFunction()" class="questions-block__dropbtn dropbtn">
+									<img src="./img/PRICING/effects/circle.svg" alt="dropbtn">
+								</a>
+								<div class="questions-block__ques">
+									Can I upgrade my plan? </div>
+							</div>
+							<div id="myDropdown" class="questions-block__answer dropdown-content">
+								<a href="#"></a>
+							</div>
+						</div>
+						<div class="questions-block__dropdown">
+							<div class="questions-block__question">
+								<a href="#s" onclick="myFunction()" class="questions-block__dropbtn dropbtn">
+									<img src="./img/PRICING/effects/circle.svg" alt="dropbtn">
+								</a>
+								<div class="questions-block__ques">
+									Can I cancel my plan at anytime? </div>
+							</div>
+							<div id="myDropdown" class="questions-block__answer dropdown-content">
+								<a href="#"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__plate plate-block">
+				<div class='plate-block__container'>
+					<div class="plate-block__body">
+						<div class="plate-block__content">
+							<div class="plate-block__text">Join 100 Compannies who boost their business with Product</div>
+							<a href="#" class="plate-block__button">Get This</a>
+						</div>
+						<div class="plate-block__img">
+							<div class="plate-block__image">
+								<img src="./img/plate/screen.png" alt="plate-block">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__content content-footer">
+				<div class='content-footer__container'>
+					<div class="content-footer__body">
+						<div class="content-footer__row">
+							<div class="content-footer__column">
+								<div class="content-footer__item item-content-footer">
+									<div class="item-content-footer__logo">
+										<img src="./img/footer/footer-logo.svg" alt="footer-logo">
+									</div>
+									<div class="item-content-footer__icons">
+										<div class="item-content-footer__icon">
+											<img src="./img/footer/inst-footer.svg" alt="footer">
+										</div>
+										<div class="item-content-footer__icon">
+											<img src="./img/footer/facebook-footer.svg" alt="footer">
+										</div>
+										<div class="item-content-footer__icon">
+											<img src="./img/footer/twitter-footer.svg" alt="footer">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content-footer__column">
+								<div class="content-footer__item item-content-footer">
+									<div class="item-content-footer__title">Resource</div>
+									<ul class="item-content-footer__list">
+										<li class="item-content-footer__link">About Us</li>
+										<li class="item-content-footer__link">Blog</li>
+										<li class="item-content-footer__link">Contact</li>
+										<li class="item-content-footer__link">FAQ</li>
+									</ul>
+								</div>
+							</div>
+							<div class="content-footer__column">
+								<div class="content-footer__item item-content-footer">
+									<div class="item-content-footer__title">Legal Stuff</div>
+									<ul class="item-content-footer__list">
+										<li class="item-content-footer__link">Disclaimer</li>
+										<li class="item-content-footer__link">Financing</li>
+										<li class="item-content-footer__link">Privacy Policy</li>
+										<li class="item-content-footer__link">Terms of Service</li>
+									</ul>
+								</div>
+							</div>
+							<div class="content-footer__column content-footer__column--form">
+								<div class="content-footer__item item-content-footer">
+									<div class="item-content-footer__text">knowing you're always on the best energy deal. </div>
+									<form action="#" class="item-content-footer__form">
+										<input type="text" class="item-content-footer__input">
+										<button class="item-content-footer__button">Sign up Now</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__copy">Made With Love By Figmaland All Right Reserved
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+		integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

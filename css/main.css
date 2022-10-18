@@ -34,6 +34,10 @@ body {
   padding: 0 15px;
 }
 
+.active-page {
+  font-weight: 600;
+}
+
 .title {
   max-width: 530px;
   text-align: center;
@@ -386,6 +390,10 @@ body {
   font-weight: 700;
   line-height: 150%;
   color: #fff;
+  transition: all 0.3s ease;
+}
+.content-word-block__button:hover {
+  background-color: #086a5f;
 }
 @media (max-width: 991.98px) {
   .content-word-block__button {
@@ -412,6 +420,10 @@ body {
   align-items: center;
   color: var(--green-color);
   padding: 15px 0px 15px 0px;
+  transition: all 0.3s ease;
+}
+.content-word-block__button--play:hover {
+  background-color: #fff;
 }
 .content-word-block__button--play img {
   padding-right: 5px;
@@ -512,6 +524,10 @@ body {
   font-weight: 700;
   line-height: 150%;
   color: #fff;
+  transition: all 0.3s ease;
+}
+.product-block__button:hover {
+  background-color: #086a5f;
 }
 
 .column-product-block__icon {
@@ -838,6 +854,10 @@ body {
   line-height: 150%;
   color: #fff;
   width: 100%;
+  transition: all 0.3s ease;
+}
+.process-block__btn:hover {
+  background-color: #086a5f;
 }
 
 .informant-process-block {
@@ -1070,10 +1090,18 @@ body {
   line-height: 122%;
   color: #ffffff;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+.item-price-block__button:hover {
+  background-color: #086a5f;
 }
 .item-price-block__button--green {
   background: #ffffff;
   color: var(--green-color);
+  transition: all 0.3s ease;
+}
+.item-price-block__button--green:hover {
+  background-color: #bcd0e5;
 }
 
 .info-item-block__item {
@@ -1241,6 +1269,10 @@ body {
   color: var(--green-color);
   line-height: 150%;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+.plate-block__button:hover {
+  background-color: #bcd0e5;
 }
 @media (max-width: 479.98px) {
   .plate-block__button {
@@ -1376,6 +1408,10 @@ body {
   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
   display: block;
   margin-bottom: 21px;
+  transition: all 0.3s ease;
+}
+.item-content-footer__input:hover {
+  background-color: #cecfd1;
 }
 .item-content-footer__button {
   background: #02897a;
@@ -1386,6 +1422,10 @@ body {
   line-height: 150%;
   text-align: center;
   color: #ffffff;
+  transition: all 0.3s ease;
+}
+.item-content-footer__button:hover {
+  background-color: #086a5f;
 }
 @media (max-width: 767.98px) {
   .item-content-footer__button {
