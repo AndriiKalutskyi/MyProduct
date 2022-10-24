@@ -292,6 +292,10 @@ body {
 		text-decoration: none;
 		text-align: center;
 		color: #ffffff;
+		transition: all 0.3s ease;
+		&:hover {
+			background-color: #086a5f;
+		}
 	}
 }
 .item-how-block {
